@@ -1,0 +1,23 @@
+version: '3'
+services:
+  backend:
+    container_name: backend
+    build:
+      context: backend
+    ports:
+      - "8000:8000"
+    environment:
+      - TZ=Asia/Seoul
+    volumes:
+      - ./backend:/app
+    restart: always
+
+  frontend:
+    container_name: frontend
+    build:
+      context: frontend
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./frontend:/app
+    restart: always

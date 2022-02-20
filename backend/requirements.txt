@@ -1,0 +1,8 @@
+# for web
+fastapi
+
+# for server
+uvicorn
+
+# for template
+jinja2
