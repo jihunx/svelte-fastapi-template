@@ -1,6 +1,7 @@
 # 설명
 * Svelte(frontend), FastAPI(backend)로 만든 기본 웹사이트 템플릿입니다.
 * Frontend에서 숫자를 입력하면 Backend에서 제곱한 값을 리턴하여 Frontend에서 결과를 표시합니다.
+<img width="436" alt="2022-02-20_21-20-59" src="https://user-images.githubusercontent.com/25073589/154842613-445cb935-b57a-4dc5-a284-e180c7ff2348.png">
 
 # 설치 및 실행
 <pre>
